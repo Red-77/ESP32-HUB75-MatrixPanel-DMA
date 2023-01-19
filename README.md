@@ -2,32 +2,6 @@
 
 __[BUILD OPTIONS](/doc/BuildOptions.md) | [EXAMPLES](/examples/README.md)__ | [![PlatformIO CI](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-DMA/actions/workflows/pio_build.yml/badge.svg)](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-DMA/actions/workflows/pio_build.yml)
 
-  **Table of Content**
-
-- [Introduction](#introduction)
-  * [Features](#features)
-  * [Supported ESP32](#esp32-supported)
-  * [Supported Panels](#panels-supported)
-  * [Panel driver chips known to be working well](#panel-driver-chips-known-to-be-working-well)
-  * [Panels Not Supported](#panels-not-supported)
-  * [Update for 16x32 Panels](#update-for-16x32-panels)
-  * [Cool uses of this library](#cool-uses-of-this-library)
-- [Getting Started](#getting-started)
-  * [1. Library Installation](#1-library-installation)
-  * [2. Wiring ESP32 with the LED Matrix Panel](#2-wiring-esp32-with-the-led-matrix-panel)
-  * [3. Run a Test Sketch](#3-run-a-test-sketch)
-- [More Information](#more-information)
-  * [Build-time options](#doc/BuildOptions.md)
-  * [Memory constraints](#memory-constraints)
-  * [Can I use with a larger panel (i.e. 64x64px square panel)?](#can-i-use-with-a-larger-panel-ie-64x64px-square-panel)
-  * [Can I chain panels?](#can-i-chain-panels)
-  * [Panel Brightness](#panel-brightness)
-  * [Latch blanking](#latch-blanking)
-  * [Power, Power and Power!](#power--power-and-power)
-  * [Inspiration](#inspiration)
- - [Thank you!](#thank-you)
-
-
 ## ESP32 Supported
 This library supports the:
 * Original ESP32 - That being the ESP-WROOM-32 module with ESP32‑D0WDQ6 chip from 2017. This MCU has 520kB of SRAM which is much more than all the recent 'reboots' of the ESP32 such as the S2, S3 etc.
