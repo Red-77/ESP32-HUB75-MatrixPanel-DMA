@@ -294,9 +294,9 @@ void ShowGIF(char *name)
                 ShowGIF(filePath);
                
               }
-              //dma_display->setBrightness8(10);    // comment out 297-299 to play the first GIF in memory on loop
-              //gifFile.close();
-             //gifFile = root.openNextFile();
+               dma_display->setBrightness8(50);    // comment out 297-299 to play a GIF seamlessly on loop
+               gifFile.close();
+               gifFile = root.openNextFile();
             }
          root.close();
       } // root
