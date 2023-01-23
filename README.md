@@ -1,6 +1,7 @@
 # HUB75 RGB LED matrix library utilizing ESP32 DMA Engine with fix for 1/8 Scan LED Matrix Panels
 
-__[BUILD OPTIONS](/doc/BuildOptions.md) | [EXAMPLES](/examples/README.md)__ | [![PlatformIO CI](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-DMA/actions/workflows/pio_build.yml/badge.svg)](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-DMA/actions/workflows/pio_build.yml)
+## Use
+There are some examples that i have ported for 1/8 scan 32x32 (can change resolution), refer to those for further use.
 
 ## ESP32 Supported
 This library supports the:
