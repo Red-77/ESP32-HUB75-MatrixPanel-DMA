@@ -2,6 +2,7 @@
 
 ## Use Case
 There are some examples that i have ported for 1/8 scan 32x32 (can change resolution), refer to those for further use.
+[examples](https://github.com/mzashh/ESP32-HUB75-MatrixPanel-DMA/tree/master/examples) 
 
 ## ESP32 Supported
 This library supports the:
