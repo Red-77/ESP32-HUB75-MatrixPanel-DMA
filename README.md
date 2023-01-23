@@ -1,6 +1,6 @@
 # HUB75 RGB LED matrix library utilizing ESP32 DMA Engine with fix for 1/8 Scan LED Matrix Panels
 
-## Use
+## Use Case
 There are some examples that i have ported for 1/8 scan 32x32 (can change resolution), refer to those for further use.
 
 ## ESP32 Supported
